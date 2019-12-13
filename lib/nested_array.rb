@@ -33,9 +33,10 @@ end
   # However, this time, sort each internal array alphabetically by the first character
 
 def sorted_matrix
+  produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   CONVENTIONAL_PRODUCE.sort 
   ORGANIC_PRODUCE.sort
-  return 
+    return produce_storage_room
   
 end
 
