@@ -33,7 +33,7 @@ end
   # However, this time, sort each internal array alphabetically by the first character
 
 def sorted_matrix
-  return produce_storage_room.sort
+  return assembled_matrix.sort
 end
 
 
