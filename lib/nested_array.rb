@@ -8,12 +8,24 @@ ORGANIC_PRODUCE = [
   "Asparagus"
 ]
 
+organic_produce = [
+  "Strawberries",
+  "Potatoes",
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"
+]
+
 CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
   "Oranges",
   "Watermelon",
   "Eggplant"
+]
+
+conventional_produce = [
+  
 ]
 
 #1
@@ -33,12 +45,11 @@ end
   # However, this time, sort each internal array alphabetically by the first character
 
 def sorted_matrix
-  CONVENTIONAL_PRODUCE = conventional_produce_variable
-  organic_produce_variable.sort
-  ORGANIC_PRODUCE = organic_produce_variable
-  organic_produce_variable.sort
-  produce_storage_room_sorted = [conventional_produce_variable, organic_produce_variable]
-    return produce_storage_room_sorted
+  produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+  CONVENTIONAL_PRODUCE.sort 
+  ORGANIC_PRODUCE.sort
+    return produce_storage_room.sort
+  
 end
 
 
