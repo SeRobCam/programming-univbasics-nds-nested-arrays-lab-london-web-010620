@@ -29,8 +29,8 @@ end
 
 #2:
 # Using Array literal syntax only, build another nested array that 
-  # uses the arrays of conventional and organic produce as before.
-  # However, this time, sort each internal array alphabetically by the first character
+# uses the arrays of conventional and organic produce as before.
+# However, this time, sort each internal array alphabetically by the first character
 
 def sorted_matrix
   
@@ -43,18 +43,19 @@ end
 
 #3:
 # Given any matrix (array of arrays), a row index and a column index, 
-  # Return the matrix's content at that row and and column
+# Return the matrix's content at that row and and column
   
 def matrix_lookup(matrix, row, column)
   return matrix[row][column]
 end
 
 
-
+#4:
+# Given any matrix (array of arrays), a row index and a column index, 
+# Update the matrix location at that row and column to have the value of new_value
+# Return the updated matrix
 
 
 def matrix_update(matrix, row, column, new_value)
-  # Given any matrix (array of arrays), a row index and a column index, 
-  # Update the matrix location at that row and column to have the value of new_value
-  # Return the updated matrix
+  return matrix[row][column] = new_value
 end
