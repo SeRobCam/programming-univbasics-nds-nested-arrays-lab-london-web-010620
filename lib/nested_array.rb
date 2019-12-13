@@ -33,7 +33,10 @@ end
   # However, this time, sort each internal array alphabetically by the first character
 
 def sorted_matrix
-  return assembled_matrix.sort
+  CONVENTIONAL_PRODUCE.sort 
+  ORGANIC_PRODUCE.sort
+  return 
+  
 end
 
 
