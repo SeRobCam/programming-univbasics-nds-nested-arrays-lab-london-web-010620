@@ -35,8 +35,8 @@ end
 def sorted_matrix
   CONVENTIONAL_PRODUCE.sort 
   ORGANIC_PRODUCE.sort
-  produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
-    return produce_storage_room
+  produce_storage_room_sorted = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
+    return produce_storage_room_sorted
   
 end
 
